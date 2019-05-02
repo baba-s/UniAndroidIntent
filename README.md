@@ -82,3 +82,7 @@ foreach ( var n in UniAndroidIntent.GetStringArray( "sa" ) )
 そのアプリを Android 端末に自動でインストールして  
 さらに自動でエージングテストを実行することで、  
 ビルドしたアプリが正常に動作するかどうか確認する、といった場面で使用できます  
+
+## 参考サイト様
+
+- https://developer.android.com/reference/android/content/Intent  
