@@ -74,7 +74,7 @@ foreach ( var n in UniAndroidIntent.GetStringArray( "sa" ) )
 |bool|--ez 【引数名】 【引数の値】|
 |int の配列|--eia 【引数名】 【配列の値（カンマ区切り）】|
 |long の配列|--ela 【引数名】 【配列の値（カンマ区切り）】|
-|string の配列|--esa 【引数名】 【配列の値（カンマ区切り）】|]
+|string の配列|--esa 【引数名】 【配列の値（カンマ区切り）】|
 
 ## 用途
 
