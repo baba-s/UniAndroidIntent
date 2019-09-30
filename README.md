@@ -2,15 +2,17 @@
 
 adb shell am start で Android アプリを起動した時に指定された引数を解析する機能
 
-[![](https://img.shields.io/github/release/baba-s/uni-android-intent.svg?label=latest%20version)](https://github.com/baba-s/uni-android-intent/releases)
-[![](https://img.shields.io/github/release-date/baba-s/uni-android-intent.svg)](https://github.com/baba-s/uni-android-intent/releases)
-![](https://img.shields.io/badge/Unity-2018.3%2B-red.svg)
+![](https://img.shields.io/badge/Unity-2018.4%2B-red.svg)
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
 [![](https://img.shields.io/github/license/baba-s/uni-android-intent.svg)](https://github.com/baba-s/uni-android-intent/blob/master/LICENSE)
 
-## バージョン
+## インストール
 
-- Unity 2018.3.11f1
+```json
+"com.baba_s.uni-android-intent": "https://github.com/baba-s/uni-android-intent.git",
+```
+
+manifest.json に上記の記述を追加します  
 
 ## 使用例
 
