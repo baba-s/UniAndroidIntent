@@ -5,7 +5,7 @@ namespace KoganeUnityLib
 	public static class UniAndroidIntent
 	{
 		private static bool IsAndroid    => Application.platform == RuntimePlatform.Android;
-		public static  bool IsNotAndroid => !IsAndroid;
+		private static bool IsNotAndroid => !IsAndroid;
 
 		public static bool GetBool( string name, bool defaultValue = default )
 		{
