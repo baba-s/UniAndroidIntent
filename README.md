@@ -4,7 +4,7 @@ adb shell am start で Android アプリを起動した時に指定された引�
 
 ![](https://img.shields.io/badge/Unity-2018.4%2B-red.svg)
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
-[![](https://img.shields.io/github/license/baba-s/uni-android-intent.svg)](https://github.com/baba-s/uni-android-intent/blob/master/LICENSE)
+[![](https://img.shields.io/github/license/baba-s/uni-android-intent.svg)](https://github.com/baba-s/uni-android-intent/blob/master/LICENSE.md)
 
 ## インストール
 
