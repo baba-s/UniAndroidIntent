@@ -1,15 +1,10 @@
 # Uni Android Intent
 
 adb shell am start で Android アプリを起動した時に指定された引数を解析する機能
-
-![](https://img.shields.io/badge/Unity-2018.4%2B-red.svg)
-![](https://img.shields.io/badge/.NET-4.x-orange.svg)
-[![](https://img.shields.io/github/license/baba-s/uni-android-intent.svg)](https://github.com/baba-s/uni-android-intent/blob/master/LICENSE.md)
-
 ## インストール
 
 ```json
-"com.baba_s.uni-android-intent": "https://github.com/baba-s/uni-android-intent.git",
+"com.baba-s.uni-android-intent": "https://github.com/baba-s/uni-android-intent.git",
 ```
 
 manifest.json に上記の記述を追加します  
@@ -18,7 +13,7 @@ manifest.json に上記の記述を追加します
 
 ```cs
 adb shell am start ^
-    -n com.baba_s.uniandroidintent/com.unity3d.player.UnityPlayerActivity ^
+    -n com.baba-s.uniandroidintent/com.unity3d.player.UnityPlayerActivity ^
     --ei i 123 ^
     --el l 456 ^
     -e s ABC ^

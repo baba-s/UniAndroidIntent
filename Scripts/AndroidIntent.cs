@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-namespace KoganeUnityLib
+namespace UniAndroidIntent
 {
-	public static class UniAndroidIntent
+	public static class AndroidIntent
 	{
 		private static bool IsAndroid    => Application.platform == RuntimePlatform.Android;
 		private static bool IsNotAndroid => !IsAndroid;
