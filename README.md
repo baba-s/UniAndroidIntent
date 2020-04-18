@@ -27,31 +27,31 @@ adb shell am start を使用して、引数付きで Android アプリを起動�
 
 ```cs
 // int 型の値を取得
-Debug.Log( UniAndroidIntent.GetInt( "i" ) );
+Debug.Log( AndroidIntent.GetInt( "i" ) );
 
 // long 型の値を取得
-Debug.Log( UniAndroidIntent.GetLong( "l" ) );
+Debug.Log( AndroidIntent.GetLong( "l" ) );
 
 // string 型の値を取得
-Debug.Log( UniAndroidIntent.GetString( "s" ) );
+Debug.Log( AndroidIntent.GetString( "s" ) );
 
 // bool 型の値を取得
-Debug.Log( UniAndroidIntent.GetBool( "b" ) );
+Debug.Log( AndroidIntent.GetBool( "b" ) );
 
 // int 型の配列を取得
-foreach ( var n in UniAndroidIntent.GetIntArray( "ia" ) )
+foreach ( var n in AndroidIntent.GetIntArray( "ia" ) )
 {
     Debug.Log( n );
 }
 
 // long 型の配列を取得
-foreach ( var n in UniAndroidIntent.GetLongArray( "la" ) )
+foreach ( var n in AndroidIntent.GetLongArray( "la" ) )
 {
     Debug.Log( n );
 }
 
 // string 型の配列を取得
-foreach ( var n in UniAndroidIntent.GetStringArray( "sa" ) )
+foreach ( var n in AndroidIntent.GetStringArray( "sa" ) )
 {
     Debug.Log( n );
 }
