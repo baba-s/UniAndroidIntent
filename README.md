@@ -6,7 +6,7 @@ manifest.json に上記の記述を追加します
 
 ## 使用例
 
-```cs
+```sh
 adb shell am start ^
     -n com.baba-s.uniandroidintent/com.unity3d.player.UnityPlayerActivity ^
     --ei i 123 ^
