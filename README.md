@@ -1,11 +1,6 @@
 # Uni Android Intent
 
 adb shell am start で Android アプリを起動した時に指定された引数を解析する機能
-## インストール
-
-```json
-"com.baba-s.uni-android-intent": "https://github.com/baba-s/uni-android-intent.git",
-```
 
 manifest.json に上記の記述を追加します  
 
