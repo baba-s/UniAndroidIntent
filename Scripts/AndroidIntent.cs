@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UniAndroidIntent
+namespace Kogane
 {
 	public static class AndroidIntent
 	{
